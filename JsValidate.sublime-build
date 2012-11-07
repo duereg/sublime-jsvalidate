@@ -1,0 +1,16 @@
+{
+  "selector": "source.js",
+
+  "cmd": ["esvalidate", "$file"],
+
+  "file_regex": "file:(.+)\\]",
+  "line_regex": "(\\d+),(\\d+)",
+
+  "osx": {
+    "path": "/usr/local/bin:/opt/local/bin"
+  },
+
+  "windows": {
+    "cmd": ["esvalidate.cmd", "$file"]
+  }
+}
