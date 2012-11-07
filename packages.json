@@ -11,7 +11,7 @@
                             "*": [
                                 {
                                     "version": "1.0.0",
-                                    "url": "https://nodeload.github.com/duereg/sublime-jsvalidate/zipball/your_tag_name_here"
+                                    "url": "https://nodeload.github.com/duereg/sublime-jsvalidate/zipball/1.0.0"
                                 }
                             ]
             }
