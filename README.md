@@ -18,7 +18,7 @@ Check your JavaScript for syntax errors: [Esprima](http://esprima.org/) with eve
 
 1. `command`-`shift`-`P` *or* `control`-`shift`-`P` in Linux/Windows*
 2. type `install p`, select `Package Control: Install Package`
-3. type `JsValidate`, select `JsValidate`
+3. type `Js Validation`, select `JS Validation Using Esprima`
 
 **Note:** Without Sublime Package Control, you could manually clone to Packages directory as 'JsValidate', exactly.
 
