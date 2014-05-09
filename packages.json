@@ -1,20 +1,22 @@
 {
-    "schema_version": "1.2",
-    "packages": [
+  "schema_version": "2.0",
+  "packages": [
+    {
+      "name": "JsValidate",
+      "details": "https://github.com/duereg/sublime-jsvalidate",
+      "releases": [
         {
-            "name": "JsValidate",
-            "description": "Validate the syntax of any JavaScript file in Sublime Text using Esprima",
-            "author": "Matt Blair",
-            "homepage": "https://github.com/duereg/sublime-jsvalidate",
-            "last_modified": "2014-05-08 15:55:02",
-            "platforms": {
-                "*": [
-                    {
-                        "version": "1.0.0",
-                        "url": "https://nodeload.github.com/duereg/sublime-jsvalidate/zipball/1.0.0"
-                    }
-                ]
-            }
+            "sublime_text": "*",
+            "details": "https://github.com/duereg/sublime-jsvalidate/tags"
         }
-    ]
+      ],
+      "description": "Validate the syntax of any JavaScript file in Sublime Text using Esprima",
+      "author": "Matt Blair",
+      "homepage": "https://github.com/duereg/sublime-jsvalidate",
+      "last_modified": "2014-05-08 15:55:02",
+      "readme": "https://raw.github.com/duereg/sublime-jsvalidate/master/README.md",
+      "previous_names": ["JS Validate Using Esprima"],
+      "labels": ["JavaScript", "js", "validation", "validate", "linting"]
+    }
+  ]
 }
