@@ -3,17 +3,17 @@
     "packages": [
         {
             "name": "JsValidate",
-            "description": "Validate the syntax of any JavaScript file in Sublime Text 2 using Esprima",
+            "description": "Validate the syntax of any JavaScript file in Sublime Text using Esprima",
             "author": "Matt Blair",
             "homepage": "https://github.com/duereg/sublime-jsvalidate",
-            "last_modified": "2012-11-07 12:58:31",
+            "last_modified": "2014-05-08 15:55:02",
             "platforms": {
-                            "*": [
-                                {
-                                    "version": "1.0.0",
-                                    "url": "https://nodeload.github.com/duereg/sublime-jsvalidate/zipball/1.0.0"
-                                }
-                            ]
+                "*": [
+                    {
+                        "version": "1.0.0",
+                        "url": "https://nodeload.github.com/duereg/sublime-jsvalidate/zipball/1.0.0"
+                    }
+                ]
             }
         }
     ]

@@ -1,10 +1,64 @@
-[{
-  "caption": "Tools",
-  "mnemonic": "t",
-  "id": "tools",
-  "children": [{
-    "id": "jsvalidate",
-    "caption": "Js Validate",
-    "command": "jsvalidate"
-  }]
-}]
+[
+  {
+    "caption": "Tools",
+    "mnemonic": "t",
+    "id": "tools",
+    "children": [
+      {
+        "id": "jsvalidate",
+        "caption": "JsValidate",
+        "command": "jsvalidate"
+      }
+    ]
+  },
+  {
+    "caption": "Preferences",
+    "mnemonic": "n",
+    "id": "preferences",
+    "children": [
+      {
+        "caption": "Package Settings",
+        "mnemonic": "P",
+        "id": "package-settings",
+        "children": [
+          {
+            "caption": "JsValidate",
+            "children": [
+              {
+                "command": "open_file",
+                "args": {
+                  "file": "${packages}/JsValidate/JsValidate.sublime-settings"
+                },
+                "caption": "Settings – Default"
+              },
+              {
+                "command": "open_file",
+                "args": {
+                  "file": "${packages}/User/JsValidate.sublime-settings"
+                },
+                "caption": "Settings – User"
+              },
+              {
+                "caption": "-"
+              },
+              {
+                "command": "open_file",
+                "args": {
+                  "file": "${packages}/JsValidate/Default.sublime-keymap"
+                },
+                "caption": "Key Bindings – Default"
+              },
+              {
+                "command": "open_file",
+                "args": {
+                  "file": "${packages}/User/Default ($platform).sublime-keymap"
+                },
+                "caption": "Key Bindings – User"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
