@@ -1,0 +1,23 @@
+{
+    // if true, run jsvalidate on save.
+    "run_on_save" : false
+
+    // a regex string to determine whether jslint
+    // should be run on a file.
+    // if a match is found (i.e. re.search(filename_filter, filename)),
+    // the file will be linted.
+    ,"filename_filter": "(\\.js)$"
+
+    // esvalidate command you want to run
+    // E.g.: "esvalidate" or "/usr/local/bin/esvalidate" or "node myvalidator.js"
+    // ,"esvalidate" : "esvalidate"
+
+    // if your own personal choice of esvalidate has an output
+    // different from the standard which comes with this package,
+    // you may have to change line_regex and file_regex
+    // check http://docs.sublimetext.info/en/latest/reference/build_systems.html
+    // to find out how these regular expressions work. The defaults are:
+
+    // ,"line_regex" : ".*// Line ([0-9]*), Pos ([0-9]*)$"
+    // ,"file_regex" : "(^[^# ]+.*$)"
+}
