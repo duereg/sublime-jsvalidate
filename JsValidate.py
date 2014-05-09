@@ -31,7 +31,6 @@ class JsvalidateCommand(sublime_plugin.TextCommand):
 
     self.view.window().run_command('exec', args)
 
-
 class JsvalidateOnSave(sublime_plugin.EventListener):
   def on_post_save(self, view):
     settings = sublime.load_settings(SETTINGS_FILE)
@@ -44,4 +43,3 @@ class JsvalidateOnSave(sublime_plugin.EventListener):
       return
 
     print 'else'
-
