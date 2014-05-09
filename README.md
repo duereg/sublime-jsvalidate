@@ -28,6 +28,13 @@ Check your JavaScript for syntax errors: [Esprima](http://esprima.org/) with eve
 - `F4` jump to next error row/column
 - `shift`-`F4` jump to previous error row-column
 
+##Settings
+
+* Navigate to **Preferences > Package Settings > JsValidate > Settings - Default**.
+* To preserve custom settings:
+  * copy default settings to **Preferences > Package Settings > JsValidate > Settings - User**
+  * modify them to your requirements
+
 ##Run JsValidate on save
 
 By default, JsValidate does not run on save. To change, simply change the setting `run_on_save` for the project to `true`.
