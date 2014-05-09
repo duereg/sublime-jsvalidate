@@ -18,7 +18,7 @@ Check your JavaScript for syntax errors: [Esprima](http://esprima.org/) with eve
 
 1. `command`-`shift`-`P` *or* `control`-`shift`-`P` in Linux/Windows*
 2. type `install p`, select `Package Control: Install Package`
-3. type `JsValidation`, select `JsValidation`
+3. type `JsValidate`, select `JsValidate`
 
 **Note:** Without Sublime Package Control, you could manually clone to Packages directory as 'JsValidate', exactly.
 
@@ -27,8 +27,6 @@ Check your JavaScript for syntax errors: [Esprima](http://esprima.org/) with eve
 - `control`-`shift`-`V` *or Tools/Contextual menus or the Command Palette*
 - `F4` jump to next error row/column
 - `shift`-`F4` jump to previous error row-column
-
-**Note:** The `control`-`shift`-`V` shortcut changes the Build System on the current file to JsValidate, then Builds to run JsValidate on the file. You could alternatively set the Build System to Automatic and `command`-`B`/`control`-`B`/`F7`, but only on files that end with .js.
 
 ##Run JsValidate on save
 
