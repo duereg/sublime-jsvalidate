@@ -21,7 +21,7 @@ class JsvalidateCommand(sublime_plugin.TextCommand):
         filepath
       ],
       'line_regex': settings.get('line_regex', r"(\d+),(\d+): (.*)$"),
-      'file_regex': settings.get('file_regex', r"esvalidate: (.+)\]")
+      'file_regex': settings.get('file_regex', r"esvalidate (.+)\]")
     }
 
     if sublime.platform() == "windows":
@@ -35,11 +35,7 @@ class JsvalidateOnSave(sublime_plugin.EventListener):
   def on_post_save(self, view):
     settings = sublime.load_settings(SETTINGS_FILE)
     if settings.get('run_on_save', False) == False:
-      print 'false'
       return
     if re.search(settings.get('filename_filter'), view.file_name()):
-      print 'true'
       view.window().run_command("jsvalidate")
       return
-
-    print 'else'
