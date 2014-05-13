@@ -20,7 +20,7 @@ Check your JavaScript for syntax errors: [Esprima](http://esprima.org/) with eve
 2. type `install p`, select `Package Control: Install Package`
 3. type `JsValidate`, select `JsValidate`
 
-**Note:** Without Sublime Package Control, you could manually clone to Packages directory as 'JsValidate', exactly.
+**Note:** Without Sublime Package Control, you could manually copy this project to your Packages directory as 'JsValidate'.
 
 ##Run JsValidate on an active JavaScript file in Sublime Text
 
@@ -38,3 +38,7 @@ Check your JavaScript for syntax errors: [Esprima](http://esprima.org/) with eve
 ##Run JsValidate on save
 
 By default, JsValidate does not run on save. To change, simply change the setting `run_on_save` for the project to `true`.
+
+##Error: unknown report format sublime.
+
+Seeing this error means you are using an outdated version of [EsValidate](http://github.com/duereg/esvalidate). Update to the latest version and this error should go away.  
