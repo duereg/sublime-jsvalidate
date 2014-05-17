@@ -42,3 +42,7 @@ By default, JsValidate does not run on save. To change, simply change the settin
 ##Error: unknown report format sublime.
 
 Seeing this error means you are using an outdated version of [EsValidate](http://github.com/duereg/esvalidate). Update to the latest version and this error should go away.  
+
+##Blog Posts
+
+I wrote some blog posts about creating this plugin and the esvalidate library [here](http://blog.mattblair.co).
