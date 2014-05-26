@@ -1,6 +1,6 @@
 #JsValidate for Sublime Text
 
-Check your JavaScript for syntax errors: [Esprima](http://esprima.org/) with everyone's favorite text editor: [Sublime Text 2](http://www.sublimetext.com/2)
+Check your JavaScript for syntax errors: [Esprima](http://esprima.org/) with everyone's favorite text editor: [Sublime Text](http://www.sublimetext.com)
 
 **Prerequisites:** [EsValidate](http://github.com/duereg/esvalidate) and [Sublime Package Control](http://wbond.net/sublime_packages/package_control/installation)
 
@@ -14,7 +14,7 @@ Check your JavaScript for syntax errors: [Esprima](http://esprima.org/) with eve
 
     npm install -g esvalidate
 
-##Install JsValidate with Package Control in Sublime Text 2
+##Install JsValidate with Package Control in Sublime Text
 
 1. `command`-`shift`-`P` *or* `control`-`shift`-`P` in Linux/Windows*
 2. type `install p`, select `Package Control: Install Package`
@@ -41,7 +41,7 @@ By default, JsValidate does not run on save. To change, simply change the settin
 
 ##Error: unknown report format sublime.
 
-Seeing this error means you are using an outdated version of [EsValidate](http://github.com/duereg/esvalidate). Update to the latest version and this error should go away.  
+Seeing this error means you are using an outdated version of [EsValidate](http://github.com/duereg/esvalidate). Update to the latest version and this error should go away.
 
 ##Blog Posts
 
