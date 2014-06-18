@@ -27,7 +27,7 @@ class JsvalidateCommand(sublime_plugin.TextCommand):
     if sublime.platform() == "windows":
       args['cmd'][0] += ".cmd"
     elif sublime.platform() == "osx":
-      args['path'] = "/usr/local/share/npm/bin:/usr/local/bin:/opt/local/bin"
+      args['path'] = "/usr/local/share/npm/bin:/usr/local/bin:/opt/local/bin:$PATH"
 
     self.view.window().run_command('exec', args)
 
