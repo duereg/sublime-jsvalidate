@@ -1,12 +1,12 @@
 {
     // if true, run jsvalidate on save.
-    "run_on_save" : false
+    "run_on_save" : true,
 
     // a regex string to determine whether jslint
     // should be run on a file.
     // if a match is found (i.e. re.search(filename_filter, filename)),
     // the file will be linted.
-    ,"filename_filter": "(\\.js)$"
+    "filename_filter": "(\\.js)$"
 
     // esvalidate command you want to run
     // E.g.: "esvalidate" or "/usr/local/bin/esvalidate" or "node myvalidator.js"
