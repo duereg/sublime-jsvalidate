@@ -10,7 +10,7 @@
 
     // esvalidate command you want to run
     // E.g.: "esvalidate" or "/usr/local/bin/esvalidate" or "node myvalidator.js"
-    // ,"esvalidate" : "esvalidate"
+    "esvalidate" : "esvalidate",
 
     // if your own personal choice of esvalidate has an output
     // different from the standard which comes with this package,
@@ -18,6 +18,6 @@
     // check http://docs.sublimetext.info/en/latest/reference/build_systems.html
     // to find out how these regular expressions work. The defaults are:
 
-    // ,"line_regex" : ".*// Line ([0-9]*), Pos ([0-9]*)$"
-    // ,"file_regex" : "(^[^# ]+.*$)"
+    "line_regex" : "(\\d+),(\\d+): (.*)$",
+    "file_regex" : "esvalidate (.+)\\]"
 }
