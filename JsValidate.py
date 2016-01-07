@@ -3,7 +3,6 @@
 import sublime
 import sublime_plugin
 import re
-import os
 
 SETTINGS_FILE = 'JSValidate.sublime-settings'
 
@@ -13,7 +12,6 @@ class JsvalidateCommand(sublime_plugin.TextCommand):
     cmd = settings.get('esvalidate', 'esvalidate')
 
     filepath = self.view.file_name()
-    packages = sublime.packages_path()
     args = {
       "cmd": [
         cmd,
