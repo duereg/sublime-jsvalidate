@@ -1,4 +1,4 @@
-#JsValidate for Sublime Text
+# JsValidate for Sublime Text
 
 Check your JavaScript for syntax errors: [Esprima](http://esprima.org/) with everyone's favorite text editor: [Sublime Text](http://www.sublimetext.com)
 
@@ -10,11 +10,11 @@ Check your JavaScript for syntax errors: [Esprima](http://esprima.org/) with eve
 
 **Windows:** Installing node with the Windows Installer from nodejs.org is assumed.
 
-##Install esvalidate with npm
+## Install esvalidate with npm
 
     npm install -g esvalidate
 
-##Install JsValidate with Package Control in Sublime Text
+## Install JsValidate with Package Control in Sublime Text
 
 1. `command`-`shift`-`P` *or* `control`-`shift`-`P` in Linux/Windows*
 2. type `install p`, select `Package Control: Install Package`
@@ -22,27 +22,27 @@ Check your JavaScript for syntax errors: [Esprima](http://esprima.org/) with eve
 
 **Note:** Without Sublime Package Control, you could manually copy this project to your Packages directory as 'JsValidate'.
 
-##Run JsValidate on an active JavaScript file in Sublime Text
+## Run JsValidate on an active JavaScript file in Sublime Text
 
 - `control`-`shift`-`V` *or Tools/Contextual menus or the Command Palette*
 - `F4` jump to next error row/column
 - `shift`-`F4` jump to previous error row-column
 
-##Settings
+## Settings
 
 * Navigate to **Preferences > Package Settings > JsValidate > Settings - Default**.
 * To preserve custom settings:
   * copy default settings to **Preferences > Package Settings > JsValidate > Settings - User**
   * modify them to your requirements
 
-##Run JsValidate on save
+## Run JsValidate on save
 
 By default, JsValidate does not run on save. To change, simply change the setting `run_on_save` for the project to `true`.
 
-##Error: unknown report format sublime.
+## Error: unknown report format sublime.
 
 Seeing this error means you are using an outdated version of [EsValidate](http://github.com/duereg/esvalidate). Update to the latest version and this error should go away.
 
-##Blog Posts
+## Blog Posts
 
 I wrote some blog posts about creating this plugin and the esvalidate library [here](http://blog.mattblair.co).
